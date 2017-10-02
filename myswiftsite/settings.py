@@ -25,7 +25,7 @@ SECRET_KEY = '#_e^a69s2e&k1xo+8ol*p=)xzkl2vh-m$t-3w1^1ju79xq&)l3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'swiftbrowser'
 ]
 
 MIDDLEWARE = [

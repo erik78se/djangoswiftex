@@ -19,6 +19,6 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^basicfrontend/', include('basicfrontend.urls')),
-    url(r'^swiftbrowser/', include('swiftbrowser.urls')),
+    #url(r'^swiftbrowser/', include('swiftbrowser.urls')),
     url(r'^admin/', admin.site.urls),
 ]
