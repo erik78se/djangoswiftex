@@ -1,0 +1,10 @@
+# django-storage-swift (Can be moved to app settings?)
+DEFAULT_FILE_STORAGE='swift.storage.SwiftStorage'
+# STATICFILES_STORAGE ='swift.storage.StaticSwiftStorage'
+SWIFT_AUTH_URL='http://192.168.1.173:5000/v3'
+SWIFT_USERNAME='testuser'
+SWIFT_PASSWORD='1234'
+SWIFT_USER_DOMAIN_NAME='admin_domain'
+SWIFT_PROJECT_DOMAIN_NAME='admin_domain'
+SWIFT_PROJECT_NAME='admin'
+SWIFT_CONTAINER_NAME='testcontainer'
