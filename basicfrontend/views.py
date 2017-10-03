@@ -19,10 +19,10 @@ logging.getLogger("swiftclient").setLevel(logging.CRITICAL)
 logger = logging.getLogger(__name__)
 
 
-def index(request):
+def index_view(request):
     return HttpResponse("Hello, world. You're at the basicfrontend app index.")
 
-def list(request):
+def list_view(request):
     # lowercase important
     localconfig = { 'st_auth_version': 3,
                     'os_user_domain_name': 'admin_domain',
