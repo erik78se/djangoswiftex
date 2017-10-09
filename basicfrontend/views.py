@@ -26,11 +26,11 @@ def list_view(request):
     # lowercase important
     localconfig = { 'st_auth_version': 3,
                     'os_user_domain_name': 'admin_domain',
-                    'os_username': 'testuser',
-                    'os_password': '1234',
-                    'os_auth_url': 'http://192.168.1.173:5000/v3'}
+                    'os_username': 'admin',
+                    'os_password': 'openstack',
+                    'os_auth_url': 'http://172.31.37.171:5000/v3'}
 
-    container = 'testcontainer'
+    container = 'bsm1'
     minimum_size = 10 * 1024 ** 2
     items = []
     with SwiftService(options=localconfig) as swift:
